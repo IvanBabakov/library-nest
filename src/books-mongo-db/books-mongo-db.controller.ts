@@ -1,10 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-types */
-import { Post } from '@nestjs/common';
-import { Body } from '@nestjs/common';
-import { Get } from '@nestjs/common';
-import { Param } from '@nestjs/common';
-import { Put } from '@nestjs/common';
-import { Delete } from '@nestjs/common';
+import { Post, Body, Get, Param, Put, Delete } from '@nestjs/common';
 import { Controller } from '@nestjs/common';
 import { HydratedDocument, QueryWithHelpers } from 'mongoose';
 import { BooksMongoDbService } from './books-mongo-db.service';
